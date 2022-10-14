@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Healthy Food",
+    "img": "https://source.unsplash.com/1600x900/?healty-food",
+    "price": 50000,
+    "value": 0
+  },
+  {
+    "id": 2,
+    "name": "Unique Food",
+    "img": "https://source.unsplash.com/1600x900/?food",
+    "price": 65000,
+    "value": 0
+  },
+  {
+    "id": 3,
+    "name": "Spicy Food",
+    "img": "https://source.unsplash.com/1600x900/?spicy-food",
+    "price": 50000,
+    "value": 0
+  },
+  {
+    "id": 4,
+    "name": "Fresh Drinks",
+    "img": "https://source.unsplash.com/1600x900/?drinks",
+    "price": 40000,
+    "value": 2
+  }
+]
