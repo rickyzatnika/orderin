@@ -10,7 +10,6 @@ import { Router } from "next/router";
 const Header = ({ data }) => {
   const { totalItem } = useRecoilValue(sumItemState);
   const { data: session } = useSession();
-  console.log(session);
 
   return (
     <>
