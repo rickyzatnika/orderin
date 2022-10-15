@@ -27,18 +27,22 @@ function Counter({ defaultValue, onRemoveItem, onValueChange }) {
 
   return (
     <>
-      <div className="flex gap-2 my-4 items-center justify-center text-center">
-        <button onClick={onMinItem} className="px-2 border-2 border-indigo-600">
+      <div className="pt-5 flex  items-center justify-center text-center">
+        <button
+          onClick={onMinItem}
+          className="px-3 py-1 text-md border-2 border-gray-400 rounded-md"
+        >
           -
         </button>
         <input
           type="number"
           value={value}
-          className="text-center border-2 border-indigo-600"
+          readOnly
+          className="text-center font-semibold w-3/6 outline-none bg-slate-100 border-none focus:ring-0 py-1 border-2 rounded-lg"
         />
         <button
           onClick={onPlusItem}
-          className="px-2 border-2 border-indigo-600"
+          className="px-3 py-1 text-md border-2 border-gray-400 rounded-md"
         >
           +
         </button>
