@@ -30,7 +30,7 @@ function Counter({ defaultValue, onRemoveItem, onValueChange }) {
       <div className="pt-5 flex  items-center justify-center text-center">
         <button
           onClick={onMinItem}
-          className="px-3 py-1 text-md border-2 border-gray-400 rounded-md"
+          className="px-3 py-1 text-md border-2 border-gray-400 hover:border-indigo-400 rounded-md"
         >
           -
         </button>
@@ -42,7 +42,7 @@ function Counter({ defaultValue, onRemoveItem, onValueChange }) {
         />
         <button
           onClick={onPlusItem}
-          className="px-3 py-1 text-md border-2 border-gray-400 rounded-md"
+          className="px-3 py-1 text-md border-2 border-gray-400 hover:border-indigo-400 rounded-md"
         >
           +
         </button>

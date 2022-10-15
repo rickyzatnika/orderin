@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-12 justify-between w-full pt-16 ">
+      <div className="grid grid-cols-1 lg:grid-cols-12 justify-between w-full pt-24 ">
         <div className="col-span-1 md:col-span-8 relative">
           <ListItem items={listItems} />
         </div>

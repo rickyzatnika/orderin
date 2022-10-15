@@ -42,7 +42,7 @@ function Item(props) {
   return (
     <>
       <div className="w-full  px-4 lg:px-24">
-        <div className="flex flex-col my-4 lg:my-6 items-center justify-center shadow-xl bg-gray-100  px-6 lg:px-10">
+        <div className="flex flex-col my-4 lg:my-6 items-center justify-center shadow-xl rounded-3xl bg-gray-100  px-6 lg:px-10">
           <div className="w-full gap-0 lg:gap-4 grid grid-cols-1 lg:grid-cols-2 items-center justify-center ">
             <Image
               src={img}
@@ -66,7 +66,7 @@ function Item(props) {
               ) : (
                 <button
                   onClick={onAddItem}
-                  className="px-6 py-1 rounded-md my-6 text-white bg-indigo-400"
+                  className="px-6 py-1 rounded-md my-6 text-white bg-indigo-400 hover:bg-indigo-500 transition-all duration-200"
                 >
                   Add
                 </button>
